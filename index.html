@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="music" loop>
+  <source src="music.mp3">
+</audio>
+
+<button id="musicToggle">🔊</button>
+
+<!-- SCREEN 1 -->
+<div class="screen screen-one">
+
+  <!-- SECTION 1 -->
+  <div class="card">
+    <h1>🔒 A Special Message</h1>
+    <p>Tap to open my heart 💕</p>
+    <button id="openHeart">Open My Heart</button>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="card hidden" id="messageCard">
+    <p id="messageText">You are my favorite thought 💗</p>
+    <small>← swipe →</small>
+  </div>
+
+  <!-- SECTION 3 -->
+  <div class="card hidden" id="finalCard">
+    <p id="typingText"></p>
+  </div>
+
+</div>
+
+<!-- SCREEN 2 -->
+<div class="screen screen-two hidden" id="photoSection">
+  <div class="card">
+   <img id="photoDisplay" src="photo1.jpg" alt="Memory 💖">
+  <small style="color:#777;">← swipe →</small>
+
+    <p class="caption">A little memory just for you 💞</p>
+  </div>
+</div>
+<!-- SCREEN 3 -->
+<div class="screen screen-three hidden" id="valentineSection">
+  <div class="card" style="position:relative; overflow:hidden;">
+    <h2>Will you be my Valentine? 💖</h2>
+
+    <div style="margin-top:20px;">
+      <button id="yesBtn">Yes 💕</button>
+      <button id="noBtn">No 😜</button>
+    </div>
+
+    <p id="valentineResponse" style="margin-top:15px;"></p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
