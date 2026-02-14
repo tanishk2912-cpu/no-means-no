@@ -13,11 +13,11 @@ const messages = [
   "Even in a crowded room, You are my favorite thought ever, the one I always want to keep 💗",
   "You make my ordinary moments special whenever we meet ✨",
   "My heart feels calm and happy with you 💞",
-  "I know that we are not together now but still I am making this website for you, I don't know why. 💌"
-  "I know Valentine's Day is over and I'm late in giving you this gift, but today is a much more important day than yesterday. Because it's the person, not the day, that matters to me"
-  "I know we can never be together, but I still want to feel the joy of being with you for as long as possible"
-  "And I don't know why I am saying so much when you are my ex, despite that I am making all this for you"
-  "But i think you're still MINE, My Tindasur 😈 "
+  "I know that we are not together now but still I am making this website for you, I don't know why. 💌",
+  "I know Valentine's Day is over and I'm late in giving you this gift, but today is a much more important day than yesterday. Because it's the person, not the day, that matters to me",
+  "I know we can never be together, but I still want to feel the joy of being with you for as long as possible",
+  "And I don't know why I am saying so much when you are my ex, despite that I am making all this for you",
+  "But i think you're still MINE, My Tindasur 😈 ",
   "I hate you so much and Fuck you aunty"
 ];
 
@@ -178,6 +178,7 @@ noBtn.addEventListener("click", (e) => {
 yesBtn.addEventListener("click", () => {
   valentineResponse.textContent = "YAYYY 💖 Best decision ever 😌💕";
 });
+
 
 
 
